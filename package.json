@@ -1,21 +1,11 @@
 {
-  "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
-  "name": "jsonlint",
+  "name": "@apiaryio/jsonlint",
+  "version": "1.0.0",
   "description": "Validate JSON",
-  "keywords": [
-    "json",
-    "validation",
-    "lint",
-    "jsonlint"
-  ],
-  "version": "1.6.2",
-  "preferGlobal": true,
+  "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/zaach/jsonlint.git"
-  },
-  "bugs": {
-    "url": "http://github.com/zaach/jsonlint/issues"
+    "url": "git://github.com/apiaryio/jsonlint.git"
   },
   "main": "lib/jsonlint.js",
   "bin": {
@@ -36,6 +26,7 @@
   "scripts": {
     "test": "node test/all-tests.js"
   },
-  "homepage": "http://zaach.github.com/jsonlint/",
-  "optionalDependencies": {}
+  "publishConfig": {
+    "registry": "https://registry.apiary-internal.com"
+  }
 }
