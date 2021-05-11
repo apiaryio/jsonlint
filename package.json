@@ -1,6 +1,6 @@
 {
   "name": "@apiaryio/jsonlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate JSON",
   "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
   "repository": {
