@@ -8,15 +8,11 @@
     "url": "git://github.com/apiaryio/jsonlint.git"
   },
   "main": "lib/jsonlint.js",
-  "bin": {
-    "jsonlint": "lib/cli.js"
-  },
   "engines": {
     "node": ">= 0.6"
   },
   "dependencies": {
-    "nomnom": ">= 1.5.x",
-    "JSV": ">= 4.0.x"
+    "JSV": "^4.0.2"
   },
   "devDependencies": {
     "test": "*",
